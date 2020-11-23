@@ -1,0 +1,15 @@
+C:\Users\HELLO\source\repos\DropingShape\DropingShape\obj\Debug\DropingShape.csprojAssemblyReference.cache
+C:\Users\HELLO\source\repos\DropingShape\DropingShape\obj\Debug\DropingShape.DropingShape.resources
+C:\Users\HELLO\source\repos\DropingShape\DropingShape\obj\Debug\DropingShape.Properties.Resources.resources
+C:\Users\HELLO\source\repos\DropingShape\DropingShape\obj\Debug\DropingShape.csproj.GenerateResource.cache
+C:\Users\HELLO\source\repos\DropingShape\DropingShape\obj\Debug\DropingShape.csproj.CoreCompileInputs.cache
+C:\Users\HELLO\Desktop\DropingShape\DropingShape\bin\Debug\DropingShape.exe.config
+C:\Users\HELLO\Desktop\DropingShape\DropingShape\bin\Debug\DropingShape.exe
+C:\Users\HELLO\Desktop\DropingShape\DropingShape\bin\Debug\DropingShape.pdb
+C:\Users\HELLO\Desktop\DropingShape\DropingShape\obj\Debug\DropingShape.csprojAssemblyReference.cache
+C:\Users\HELLO\Desktop\DropingShape\DropingShape\obj\Debug\DropingShape.DropingShape.resources
+C:\Users\HELLO\Desktop\DropingShape\DropingShape\obj\Debug\DropingShape.Properties.Resources.resources
+C:\Users\HELLO\Desktop\DropingShape\DropingShape\obj\Debug\DropingShape.csproj.GenerateResource.cache
+C:\Users\HELLO\Desktop\DropingShape\DropingShape\obj\Debug\DropingShape.csproj.CoreCompileInputs.cache
+C:\Users\HELLO\Desktop\DropingShape\DropingShape\obj\Debug\DropingShape.exe
+C:\Users\HELLO\Desktop\DropingShape\DropingShape\obj\Debug\DropingShape.pdb

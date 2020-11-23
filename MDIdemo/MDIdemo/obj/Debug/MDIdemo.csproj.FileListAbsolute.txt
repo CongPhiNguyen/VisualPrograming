@@ -1,0 +1,12 @@
+C:\Users\HELLO\Desktop\MDIdemo\MDIdemo\bin\Debug\MDIdemo.exe.config
+C:\Users\HELLO\Desktop\MDIdemo\MDIdemo\bin\Debug\MDIdemo.exe
+C:\Users\HELLO\Desktop\MDIdemo\MDIdemo\bin\Debug\MDIdemo.pdb
+C:\Users\HELLO\Desktop\MDIdemo\MDIdemo\obj\Debug\MDIdemo.csprojAssemblyReference.cache
+C:\Users\HELLO\Desktop\MDIdemo\MDIdemo\obj\Debug\MDIdemo.MDI1.resources
+C:\Users\HELLO\Desktop\MDIdemo\MDIdemo\obj\Debug\MDIdemo.MDI2.resources
+C:\Users\HELLO\Desktop\MDIdemo\MDIdemo\obj\Debug\MDIdemo.MDI.resources
+C:\Users\HELLO\Desktop\MDIdemo\MDIdemo\obj\Debug\MDIdemo.Properties.Resources.resources
+C:\Users\HELLO\Desktop\MDIdemo\MDIdemo\obj\Debug\MDIdemo.csproj.GenerateResource.cache
+C:\Users\HELLO\Desktop\MDIdemo\MDIdemo\obj\Debug\MDIdemo.csproj.CoreCompileInputs.cache
+C:\Users\HELLO\Desktop\MDIdemo\MDIdemo\obj\Debug\MDIdemo.exe
+C:\Users\HELLO\Desktop\MDIdemo\MDIdemo\obj\Debug\MDIdemo.pdb
