@@ -1,0 +1,15 @@
+C:\Users\HELLO\Desktop\GDI_Test\GDI_Test\bin\Debug\GDI_Test.exe.config
+C:\Users\HELLO\Desktop\GDI_Test\GDI_Test\bin\Debug\GDI_Test.exe
+C:\Users\HELLO\Desktop\GDI_Test\GDI_Test\bin\Debug\GDI_Test.pdb
+C:\Users\HELLO\Desktop\GDI_Test\GDI_Test\obj\Debug\GDI_Test.csprojAssemblyReference.cache
+C:\Users\HELLO\Desktop\GDI_Test\GDI_Test\obj\Debug\GDI_Test.GDI.resources
+C:\Users\HELLO\Desktop\GDI_Test\GDI_Test\obj\Debug\GDI_Test.Properties.Resources.resources
+C:\Users\HELLO\Desktop\GDI_Test\GDI_Test\obj\Debug\GDI_Test.csproj.GenerateResource.cache
+C:\Users\HELLO\Desktop\GDI_Test\GDI_Test\obj\Debug\GDI_Test.csproj.CoreCompileInputs.cache
+C:\Users\HELLO\Desktop\GDI_Test\GDI_Test\obj\Debug\GDI_Test.exe
+C:\Users\HELLO\Desktop\GDI_Test\GDI_Test\obj\Debug\GDI_Test.pdb
+C:\Users\HELLO\Desktop\GDI_Test\GDI_Test\obj\Debug\GDI_Test.GDI2.resources
+C:\Users\HELLO\Desktop\GDI_Test\GDI_Test\obj\Debug\GDI_Test.MDI.resources
+C:\Users\HELLO\Desktop\GDI_Test\GDI_Test\obj\Debug\GDI_Test.GDI3.resources
+C:\Users\HELLO\Desktop\GDI_Test\GDI_Test\obj\Debug\GDI_Test.GDI4_Pentool.resources
+C:\Users\HELLO\Desktop\GDI_Test\GDI_Test\obj\Debug\GDI_Test.Polygon.resources
