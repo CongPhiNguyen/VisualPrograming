@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -14,7 +15,7 @@ namespace GDI_Test
 	{
 		Point MouseLocation = new Point();
 		List<Rectangle> points = new List<Rectangle>();
-		bool isDraw = false;
+		bool isDraw = false, isFill = false;
 		public Polygon()
 		{
 			InitializeComponent();
@@ -47,6 +48,14 @@ namespace GDI_Test
 			this.Refresh();
 		}
 
+		private void btFill_Click(object sender, EventArgs e)
+		{
+			isFill = !isFill;
+			this.Invalidate();
+			this.Update();
+			this.Refresh();
+		}
+
 		private void Polygon_Paint(object sender, PaintEventArgs e)
 		{
 			Graphics g = e.Graphics;
@@ -58,6 +67,10 @@ namespace GDI_Test
 					p[i] = points[i].Location;
 				}
 				g.DrawPolygon(new Pen(Color.Red, 3), p);
+				if (isFill==true)
+				{
+					g.FillPolygon(Brushes.DarkCyan, p);
+				}	
 			}	
 			for (int i = 0; i < points.Count; i++)
 			{

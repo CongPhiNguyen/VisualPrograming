@@ -29,6 +29,7 @@
 		private void InitializeComponent()
 		{
 			this.btDraw = new System.Windows.Forms.Button();
+			this.btFill = new System.Windows.Forms.Button();
 			this.SuspendLayout();
 			// 
 			// btDraw
@@ -41,12 +42,23 @@
 			this.btDraw.UseVisualStyleBackColor = true;
 			this.btDraw.Click += new System.EventHandler(this.btDraw_Click);
 			// 
+			// btFill
+			// 
+			this.btFill.Location = new System.Drawing.Point(10, 58);
+			this.btFill.Name = "btFill";
+			this.btFill.Size = new System.Drawing.Size(75, 23);
+			this.btFill.TabIndex = 1;
+			this.btFill.Text = "Fill";
+			this.btFill.UseVisualStyleBackColor = true;
+			this.btFill.Click += new System.EventHandler(this.btFill_Click);
+			// 
 			// Polygon
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackColor = System.Drawing.Color.DimGray;
 			this.ClientSize = new System.Drawing.Size(608, 299);
+			this.Controls.Add(this.btFill);
 			this.Controls.Add(this.btDraw);
 			this.Name = "Polygon";
 			this.Text = "Polygon";
@@ -59,5 +71,6 @@
 		#endregion
 
 		private System.Windows.Forms.Button btDraw;
+		private System.Windows.Forms.Button btFill;
 	}
 }
