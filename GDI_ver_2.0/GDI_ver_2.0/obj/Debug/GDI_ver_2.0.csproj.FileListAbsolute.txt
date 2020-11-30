@@ -1,0 +1,11 @@
+C:\Users\HELLO\Desktop\GDI_ver_2.0\GDI_ver_2.0\bin\Debug\GDI_ver_2.0.exe.config
+C:\Users\HELLO\Desktop\GDI_ver_2.0\GDI_ver_2.0\bin\Debug\GDI_ver_2.0.exe
+C:\Users\HELLO\Desktop\GDI_ver_2.0\GDI_ver_2.0\bin\Debug\GDI_ver_2.0.pdb
+C:\Users\HELLO\Desktop\GDI_ver_2.0\GDI_ver_2.0\obj\Debug\GDI_ver_2.0.csprojAssemblyReference.cache
+C:\Users\HELLO\Desktop\GDI_ver_2.0\GDI_ver_2.0\obj\Debug\GDI_ver_2._0.GDI_Brush.resources
+C:\Users\HELLO\Desktop\GDI_ver_2.0\GDI_ver_2.0\obj\Debug\GDI_ver_2._0.GDI_container.resources
+C:\Users\HELLO\Desktop\GDI_ver_2.0\GDI_ver_2.0\obj\Debug\GDI_ver_2._0.Properties.Resources.resources
+C:\Users\HELLO\Desktop\GDI_ver_2.0\GDI_ver_2.0\obj\Debug\GDI_ver_2.0.csproj.GenerateResource.cache
+C:\Users\HELLO\Desktop\GDI_ver_2.0\GDI_ver_2.0\obj\Debug\GDI_ver_2.0.csproj.CoreCompileInputs.cache
+C:\Users\HELLO\Desktop\GDI_ver_2.0\GDI_ver_2.0\obj\Debug\GDI_ver_2.0.exe
+C:\Users\HELLO\Desktop\GDI_ver_2.0\GDI_ver_2.0\obj\Debug\GDI_ver_2.0.pdb
