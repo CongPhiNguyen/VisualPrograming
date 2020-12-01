@@ -1,0 +1,5 @@
+Chuột phải để tăng giảm cái độ rộng brush
+vẽ bằng cách nối các đường
+thêm các chức năng của cái texture brush
+chụp màn hình lại để lưu file
+thêm chức năng crop gì đó
