@@ -16,6 +16,7 @@ namespace GDI_ver_2._0
 		public GDI_container()
 		{
 			InitializeComponent();
+			this.menuStrip1.AllowMerge = false;
 		}
 
 		private void gDIBrushToolStripMenuItem_Click(object sender, EventArgs e)

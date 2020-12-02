@@ -1,5 +1,8 @@
-Chuột phải để tăng giảm cái độ rộng brush
 vẽ bằng cách nối các đường
 thêm các chức năng của cái texture brush
 chụp màn hình lại để lưu file
 thêm chức năng crop gì đó
+
+- Hiện tại:
+	- Hình tròn biểu thị brush : Cơ bản là đã xong
+	- Chuột phải để tăng giảm cái độ rộng brush
