@@ -31,6 +31,7 @@
 			this.menuStrip1 = new System.Windows.Forms.MenuStrip();
 			this.gDIToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 			this.gDIBrushToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+			this.textureBrushToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 			this.menuStrip1.SuspendLayout();
 			this.SuspendLayout();
 			// 
@@ -47,7 +48,8 @@
 			// gDIToolStripMenuItem
 			// 
 			this.gDIToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.gDIBrushToolStripMenuItem});
+            this.gDIBrushToolStripMenuItem,
+            this.textureBrushToolStripMenuItem});
 			this.gDIToolStripMenuItem.Name = "gDIToolStripMenuItem";
 			this.gDIToolStripMenuItem.Size = new System.Drawing.Size(38, 20);
 			this.gDIToolStripMenuItem.Text = "GDI";
@@ -55,9 +57,16 @@
 			// gDIBrushToolStripMenuItem
 			// 
 			this.gDIBrushToolStripMenuItem.Name = "gDIBrushToolStripMenuItem";
-			this.gDIBrushToolStripMenuItem.Size = new System.Drawing.Size(126, 22);
+			this.gDIBrushToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
 			this.gDIBrushToolStripMenuItem.Text = "GDI Brush";
 			this.gDIBrushToolStripMenuItem.Click += new System.EventHandler(this.gDIBrushToolStripMenuItem_Click);
+			// 
+			// textureBrushToolStripMenuItem
+			// 
+			this.textureBrushToolStripMenuItem.Name = "textureBrushToolStripMenuItem";
+			this.textureBrushToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+			this.textureBrushToolStripMenuItem.Text = "Texture Brush";
+			this.textureBrushToolStripMenuItem.Click += new System.EventHandler(this.textureBrushToolStripMenuItem_Click);
 			// 
 			// GDI_container
 			// 
@@ -81,6 +90,7 @@
 		private System.Windows.Forms.MenuStrip menuStrip1;
 		private System.Windows.Forms.ToolStripMenuItem gDIToolStripMenuItem;
 		private System.Windows.Forms.ToolStripMenuItem gDIBrushToolStripMenuItem;
+		private System.Windows.Forms.ToolStripMenuItem textureBrushToolStripMenuItem;
 	}
 }
 

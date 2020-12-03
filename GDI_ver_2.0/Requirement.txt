@@ -2,7 +2,10 @@ vẽ bằng cách nối các đường
 thêm các chức năng của cái texture brush
 chụp màn hình lại để lưu file
 thêm chức năng crop gì đó
+Vẽ nhiều sẽ bị lag do có quá nhiều vòng for(chụp màn hình khúc trước lại rồi tô thêm vô ???)
+Thả chuột sẽ bị in khi mà thay đổi độ rộng brush
 
 - Hiện tại:
 	- Hình tròn biểu thị brush : Cơ bản là đã xong
-	- Chuột phải để tăng giảm cái độ rộng brush
+	- Chuột phải để tăng giảm cái độ rộng brush: đã xong
+	- thêm 1 số chức năng của texture brush

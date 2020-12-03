@@ -8,11 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Drawing.Drawing2D;
+using System.IO;
 
 namespace GDI_ver_2._0
 {
 	public partial class GDI_Brush : Form
 	{
+
 		bool isPainting = false, isSizeChang=false;
 		List<Rectangle> ls= new List<Rectangle>();
 		List<Brush> lsbrush = new List<Brush>();
@@ -25,12 +27,31 @@ namespace GDI_ver_2._0
 		Point MouseLocation= new Point();
 		Rectangle cursorCircle= new Rectangle(10,10,20,20);
 		Point beginIncrease = new Point();
+
+		List<string> allJpg = new List<string>();
+		string pathTexture;
+
 		public GDI_Brush()
 		{
 			InitializeComponent();
 			this.Cursor = Cursors.Cross;
 			//this.Cursor.Size = new Size(4, 4);
 			this.DoubleBuffered = true;
+			getAllJpg();
+			for(int i=0;i<allJpg.Count;i++)
+			{
+				cbTexture.Items.Add(allJpg[i]);
+			}
+			pathTexture = cbTexture.Items[0].ToString();
+		}
+		public void getAllJpg()
+		{
+			DirectoryInfo d = new DirectoryInfo(Directory.GetCurrentDirectory());//Assuming Test is your Folder
+			FileInfo[] Files = d.GetFiles("*.jpg"); //Getting Text files
+			foreach (FileInfo file in Files)
+			{
+				allJpg.Add(file.Name);
+			}
 		}
 		private void Brush_Paint(object sender, PaintEventArgs e)
 		{
@@ -78,7 +99,7 @@ namespace GDI_ver_2._0
 					}
 					else if (type == 4)
 					{
-						Image image = new Bitmap(Image.FromFile("Texture.jpg"));
+						Image image = new Bitmap(Image.FromFile(pathTexture));
 						TextureBrush textbrush = new TextureBrush(image);
 						lsbrush.Add(textbrush);
 					}
@@ -98,6 +119,7 @@ namespace GDI_ver_2._0
 				{
 					brsize = oldbrsize + e.X - beginIncrease.X;
 					cursorCircle.Size=new Size(brsize, brsize);
+					this.tbSize.Text = brsize.ToString();
 				}
 				else
 				{
@@ -107,6 +129,7 @@ namespace GDI_ver_2._0
 						brsize = 5;
 					}	
 					cursorCircle.Size = new Size(brsize, brsize);
+					this.tbSize.Text = brsize.ToString();
 				}
 				this.Invalidate();
 			}	
@@ -250,7 +273,7 @@ namespace GDI_ver_2._0
 			}
 			else if (type == 4)
 			{
-				Image image = new Bitmap(Image.FromFile("Texture.jpg"));
+				Image image = new Bitmap(Image.FromFile(pathTexture));
 				TextureBrush textbrush = new TextureBrush(image);
 				lsbrush.Add(textbrush);
 			}
@@ -258,6 +281,10 @@ namespace GDI_ver_2._0
 			this.Invalidate();
 			this.Update();
 			this.Refresh();
+		}
+		private void cbTexture_SelectedIndexChanged(object sender, EventArgs e)
+		{
+			pathTexture = cbTexture.SelectedItem.ToString();
 		}
 		private void btGra1_Click(object sender, EventArgs e)
 		{
