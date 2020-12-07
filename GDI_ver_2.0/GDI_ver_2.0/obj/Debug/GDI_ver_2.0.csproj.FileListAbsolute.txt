@@ -21,3 +21,4 @@ C:\Users\HELLO\Desktop\VisualPrograming\GDI_ver_2.0\GDI_ver_2.0\obj\Debug\GDI_ve
 C:\Users\HELLO\Desktop\VisualPrograming\GDI_ver_2.0\GDI_ver_2.0\obj\Debug\GDI_ver_2.0.exe
 C:\Users\HELLO\Desktop\VisualPrograming\GDI_ver_2.0\GDI_ver_2.0\obj\Debug\GDI_ver_2.0.pdb
 C:\Users\HELLO\Desktop\VisualPrograming\GDI_ver_2.0\GDI_ver_2.0\obj\Debug\GDI_ver_2._0.Texture_Brush.resources
+C:\Users\HELLO\Desktop\VisualPrograming\GDI_ver_2.0\GDI_ver_2.0\obj\Debug\GDI_ver_2._0.LineMaster.resources

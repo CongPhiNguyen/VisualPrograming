@@ -1,6 +1,6 @@
 vẽ bằng cách nối các đường
 thêm các chức năng của cái texture brush
-chụp màn hình lại để lưu file
+chụp màn hình lại để lưu file(Chỉ lưu lịch sử bao nhiêu bước đó giống photoshop)
 thêm chức năng crop gì đó
 Vẽ nhiều sẽ bị lag do có quá nhiều vòng for(chụp màn hình khúc trước lại rồi tô thêm vô ???)
 Thả chuột sẽ bị in khi mà thay đổi độ rộng brush

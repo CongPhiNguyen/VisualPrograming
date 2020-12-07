@@ -23,7 +23,7 @@ namespace GDI_ver_2._0
 		int brsize = 20, oldbrsize=20;
 		HatchStyle style = HatchStyle.BackwardDiagonal;
 		int type = 1;
-		int limit_count=10;
+		int limit_count = 1;
 		Point MouseLocation= new Point();
 		Rectangle cursorCircle= new Rectangle(10,10,20,20);
 		Point beginIncrease = new Point();
@@ -31,9 +31,15 @@ namespace GDI_ver_2._0
 		List<string> allJpg = new List<string>();
 		string pathTexture;
 
+
+		// Dùng để quản lý layer
+		Bitmap layer0, layer1;
+		int currentLayer = 0;
 		public GDI_Brush()
 		{
 			InitializeComponent();
+			layer0 = new Bitmap(Screen.PrimaryScreen.Bounds.Width, Screen.PrimaryScreen.Bounds.Height);
+			layer1 = new Bitmap(Screen.PrimaryScreen.Bounds.Width, Screen.PrimaryScreen.Bounds.Height);
 			this.Cursor = Cursors.Cross;
 			//this.Cursor.Size = new Size(4, 4);
 			this.DoubleBuffered = true;
@@ -56,15 +62,25 @@ namespace GDI_ver_2._0
 		private void Brush_Paint(object sender, PaintEventArgs e)
 		{
 			cursorCircle = new Rectangle(new Point(MouseLocation.X - brsize / 2, MouseLocation.Y - brsize / 2), new Size(brsize, brsize));
-			for (int i = num; i < ls.Count; i++)
+			//for (int i = num; i < ls.Count; i++)
+			//{
+			//	if (i<lsbrush.Count)
+			//	{
+			//		e.Graphics.FillEllipse(lsbrush[i], ls[i]);
+			//	}	
+			//}
+			//e.Graphics.DrawEllipse(new Pen(Brushes.Black),cursorCircle);
+			if(currentLayer==0)
 			{
-				if (i<lsbrush.Count)
-				{
-					e.Graphics.FillEllipse(lsbrush[i], ls[i]);
-				}	
+				e.Graphics.DrawImageUnscaled(layer1, 0, 0);
+				e.Graphics.DrawImageUnscaled(layer0, 0, 0);
+			}	
+			else if(currentLayer==1)
+			{
+				e.Graphics.DrawImageUnscaled(layer0, 0, 0);
+				e.Graphics.DrawImageUnscaled(layer1, 0, 0);
 			}
-			e.Graphics.DrawEllipse(new Pen(Brushes.Black),cursorCircle);
-			//num = ls.Count;
+			e.Graphics.DrawEllipse(new Pen(Brushes.Black), cursorCircle);
 		}
 		private void GDI_Brush_MouseDown(object sender, MouseEventArgs e)
 		{
@@ -80,7 +96,12 @@ namespace GDI_ver_2._0
 		}
 		private void GDI_Brush_MouseMove(object sender, MouseEventArgs e)
 		{
-			if(e.Button==MouseButtons.Left)
+			Graphics g;
+			if (currentLayer == 0)
+				g = Graphics.FromImage(layer0);
+			else
+				g = Graphics.FromImage(layer1);
+			if (e.Button==MouseButtons.Left)
 			{
 				if (isPainting == true)
 				{
@@ -103,6 +124,7 @@ namespace GDI_ver_2._0
 						TextureBrush textbrush = new TextureBrush(image);
 						lsbrush.Add(textbrush);
 					}
+					g.FillEllipse(lsbrush[lsbrush.Count - 1], ls[ls.Count - 1]);
 					count++;
 				}
 				if (count > limit_count)
@@ -169,17 +191,17 @@ namespace GDI_ver_2._0
 		private void btSolidBrush_Click(object sender, EventArgs e)
 		{
 			type = 1;
-			limit_count = 10;
+			//limit_count = 10;
 		}
 		private void btHatch_Click(object sender, EventArgs e)
 		{
 			type = 2;
-			limit_count = 10;
+			//limit_count = 10;
 		}
 		private void btGradient_Click(object sender, EventArgs e)
 		{
 			type = 3;
-			limit_count = 10;
+			//limit_count = 10;
 		}
 		private void btForeColor_Click(object sender, EventArgs e)
 		{
@@ -237,7 +259,7 @@ namespace GDI_ver_2._0
 		private void btTexture_Click(object sender, EventArgs e)
 		{
 			type = 4;
-			limit_count = 1;
+			//limit_count = 1;
 		}
 		private void tbSize_Enter(object sender, EventArgs e)
 		{
@@ -285,6 +307,20 @@ namespace GDI_ver_2._0
 		private void cbTexture_SelectedIndexChanged(object sender, EventArgs e)
 		{
 			pathTexture = cbTexture.SelectedItem.ToString();
+		}
+		private void picLayer0_Click(object sender, EventArgs e)
+		{
+			currentLayer = 0;
+			this.picLayer1.BackColor = Color.White;
+			this.picLayer0.BackColor = Color.Red;
+			this.Invalidate();
+		}
+		private void picLayer1_Click(object sender, EventArgs e)
+		{
+			currentLayer = 1;
+			this.picLayer1.BackColor = Color.Red;
+			this.picLayer0.BackColor = Color.White;
+			this.Invalidate();
 		}
 		private void btGra1_Click(object sender, EventArgs e)
 		{

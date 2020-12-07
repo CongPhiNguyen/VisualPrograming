@@ -14,6 +14,7 @@ namespace GDI_ver_2._0
 	{
 		GDI_Brush gdibr;
 		Texture_Brush txtBrush;
+		LineMaster lineMaster;
 		public GDI_container()
 		{
 			InitializeComponent();
@@ -21,6 +22,7 @@ namespace GDI_ver_2._0
 		}
 		private void gDIBrushToolStripMenuItem_Click(object sender, EventArgs e)
 		{
+			this.gDIToolStripMenuItem.ForeColor = Color.White;
 			if (gdibr == null)
 			{
 				gdibr = new GDI_Brush();
@@ -35,9 +37,9 @@ namespace GDI_ver_2._0
 		{
 			gdibr = null;
 		}
-
 		private void textureBrushToolStripMenuItem_Click(object sender, EventArgs e)
 		{
+			this.gDIToolStripMenuItem.ForeColor = Color.White;
 			if (txtBrush == null)
 			{
 				txtBrush = new Texture_Brush();
@@ -51,6 +53,35 @@ namespace GDI_ver_2._0
 		private void txtBrush_Close(object sender, FormClosedEventArgs e)
 		{
 			txtBrush = null;
+		}
+		private void lMaster_Close(object sender, FormClosedEventArgs e)
+		{
+			lineMaster = null;
+		}
+		private void lineMasterToolStripMenuItem_Click(object sender, EventArgs e)
+		{
+			this.gDIToolStripMenuItem.ForeColor = Color.White;
+			if (lineMaster == null)
+			{
+				lineMaster = new LineMaster();
+				lineMaster.MdiParent = this;
+				lineMaster.FormClosed += new FormClosedEventHandler(lMaster_Close);
+				lineMaster.Show();
+			}
+			else lineMaster.Activate();
+			lineMaster.WindowState = FormWindowState.Maximized;
+		}
+		private void gDIToolStripMenuItem_Click(object sender, EventArgs e)
+		{
+			this.gDIToolStripMenuItem.ForeColor = Color.Black;
+		}
+		private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+		{
+			this.gDIToolStripMenuItem.ForeColor = Color.White;
+		}
+		private void GDI_container_Load(object sender, EventArgs e)
+		{
+			this.gDIToolStripMenuItem.ForeColor = Color.White;
 		}
 	}
 }

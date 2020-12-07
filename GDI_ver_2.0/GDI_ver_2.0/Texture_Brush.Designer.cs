@@ -51,7 +51,9 @@
 			this.Name = "Texture_Brush";
 			this.Text = "Texture_Brush";
 			this.Paint += new System.Windows.Forms.PaintEventHandler(this.Texture_Brush_Paint);
+			this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Texture_Brush_MouseDown);
 			this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Texture_Brush_MouseMove);
+			this.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Texture_Brush_MouseUp);
 			this.ResumeLayout(false);
 			this.PerformLayout();
 

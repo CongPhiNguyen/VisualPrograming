@@ -48,8 +48,16 @@
 			this.cbTexture = new System.Windows.Forms.ComboBox();
 			this.cbTiling = new System.Windows.Forms.CheckBox();
 			this.pnBrush = new System.Windows.Forms.FlowLayoutPanel();
+			this.pnLayer = new System.Windows.Forms.Panel();
+			this.picLayer0 = new System.Windows.Forms.PictureBox();
+			this.lbLayer0 = new System.Windows.Forms.Label();
+			this.picLayer1 = new System.Windows.Forms.PictureBox();
+			this.lbLayer1 = new System.Windows.Forms.Label();
 			this.menuStrip1.SuspendLayout();
 			this.pnBrush.SuspendLayout();
+			this.pnLayer.SuspendLayout();
+			((System.ComponentModel.ISupportInitialize)(this.picLayer0)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.picLayer1)).BeginInit();
 			this.SuspendLayout();
 			// 
 			// btSolidBrush
@@ -188,6 +196,7 @@
 			// 
 			// menuStrip1
 			// 
+			this.menuStrip1.BackColor = System.Drawing.SystemColors.GrayText;
 			this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.fileToolStripMenuItem,
             this.viewToolStripMenuItem});
@@ -214,7 +223,7 @@
 			// brushToolStripMenuItem
 			// 
 			this.brushToolStripMenuItem.Name = "brushToolStripMenuItem";
-			this.brushToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+			this.brushToolStripMenuItem.Size = new System.Drawing.Size(104, 22);
 			this.brushToolStripMenuItem.Text = "Brush";
 			// 
 			// cbTexture
@@ -239,6 +248,7 @@
 			// 
 			// pnBrush
 			// 
+			this.pnBrush.BackColor = System.Drawing.SystemColors.GrayText;
 			this.pnBrush.Controls.Add(this.btSolidBrush);
 			this.pnBrush.Controls.Add(this.btColor);
 			this.pnBrush.Controls.Add(this.btHatch);
@@ -254,16 +264,67 @@
 			this.pnBrush.Controls.Add(this.tbGraSize);
 			this.pnBrush.Controls.Add(this.btSize_nouse);
 			this.pnBrush.Controls.Add(this.tbSize);
-			this.pnBrush.Location = new System.Drawing.Point(0, 27);
+			this.pnBrush.Location = new System.Drawing.Point(0, 23);
 			this.pnBrush.Name = "pnBrush";
 			this.pnBrush.Size = new System.Drawing.Size(903, 33);
 			this.pnBrush.TabIndex = 12;
+			// 
+			// pnLayer
+			// 
+			this.pnLayer.BackColor = System.Drawing.SystemColors.GrayText;
+			this.pnLayer.Controls.Add(this.lbLayer1);
+			this.pnLayer.Controls.Add(this.lbLayer0);
+			this.pnLayer.Controls.Add(this.picLayer1);
+			this.pnLayer.Controls.Add(this.picLayer0);
+			this.pnLayer.Location = new System.Drawing.Point(0, 55);
+			this.pnLayer.Name = "pnLayer";
+			this.pnLayer.Size = new System.Drawing.Size(137, 201);
+			this.pnLayer.TabIndex = 14;
+			// 
+			// picLayer0
+			// 
+			this.picLayer0.BackColor = System.Drawing.Color.Red;
+			this.picLayer0.Location = new System.Drawing.Point(3, 3);
+			this.picLayer0.Name = "picLayer0";
+			this.picLayer0.Size = new System.Drawing.Size(65, 42);
+			this.picLayer0.TabIndex = 15;
+			this.picLayer0.TabStop = false;
+			this.picLayer0.Click += new System.EventHandler(this.picLayer0_Click);
+			// 
+			// lbLayer0
+			// 
+			this.lbLayer0.AutoSize = true;
+			this.lbLayer0.Location = new System.Drawing.Point(80, 15);
+			this.lbLayer0.Name = "lbLayer0";
+			this.lbLayer0.Size = new System.Drawing.Size(42, 13);
+			this.lbLayer0.TabIndex = 16;
+			this.lbLayer0.Text = "Layer 0";
+			// 
+			// picLayer1
+			// 
+			this.picLayer1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+			this.picLayer1.Location = new System.Drawing.Point(3, 51);
+			this.picLayer1.Name = "picLayer1";
+			this.picLayer1.Size = new System.Drawing.Size(65, 42);
+			this.picLayer1.TabIndex = 15;
+			this.picLayer1.TabStop = false;
+			this.picLayer1.Click += new System.EventHandler(this.picLayer1_Click);
+			// 
+			// lbLayer1
+			// 
+			this.lbLayer1.AutoSize = true;
+			this.lbLayer1.Location = new System.Drawing.Point(80, 67);
+			this.lbLayer1.Name = "lbLayer1";
+			this.lbLayer1.Size = new System.Drawing.Size(42, 13);
+			this.lbLayer1.TabIndex = 16;
+			this.lbLayer1.Text = "Layer 1";
 			// 
 			// GDI_Brush
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(915, 392);
+			this.Controls.Add(this.pnLayer);
 			this.Controls.Add(this.pnBrush);
 			this.Controls.Add(this.menuStrip1);
 			this.Name = "GDI_Brush";
@@ -277,6 +338,10 @@
 			this.menuStrip1.PerformLayout();
 			this.pnBrush.ResumeLayout(false);
 			this.pnBrush.PerformLayout();
+			this.pnLayer.ResumeLayout(false);
+			this.pnLayer.PerformLayout();
+			((System.ComponentModel.ISupportInitialize)(this.picLayer0)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.picLayer1)).EndInit();
 			this.ResumeLayout(false);
 			this.PerformLayout();
 
@@ -304,5 +369,10 @@
 		private System.Windows.Forms.ComboBox cbTexture;
 		private System.Windows.Forms.CheckBox cbTiling;
 		private System.Windows.Forms.FlowLayoutPanel pnBrush;
+		private System.Windows.Forms.Panel pnLayer;
+		private System.Windows.Forms.Label lbLayer0;
+		private System.Windows.Forms.PictureBox picLayer0;
+		private System.Windows.Forms.Label lbLayer1;
+		private System.Windows.Forms.PictureBox picLayer1;
 	}
 }

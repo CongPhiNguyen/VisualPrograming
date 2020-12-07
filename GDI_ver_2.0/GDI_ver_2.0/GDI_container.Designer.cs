@@ -32,11 +32,13 @@
 			this.gDIToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 			this.gDIBrushToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 			this.textureBrushToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+			this.lineMasterToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 			this.menuStrip1.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// menuStrip1
 			// 
+			this.menuStrip1.BackColor = System.Drawing.SystemColors.GrayText;
 			this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.gDIToolStripMenuItem});
 			this.menuStrip1.Location = new System.Drawing.Point(0, 0);
@@ -44,15 +46,20 @@
 			this.menuStrip1.Size = new System.Drawing.Size(915, 24);
 			this.menuStrip1.TabIndex = 1;
 			this.menuStrip1.Text = "menuStrip1";
+			this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked);
 			// 
 			// gDIToolStripMenuItem
 			// 
+			this.gDIToolStripMenuItem.BackColor = System.Drawing.SystemColors.GrayText;
 			this.gDIToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.gDIBrushToolStripMenuItem,
-            this.textureBrushToolStripMenuItem});
+            this.textureBrushToolStripMenuItem,
+            this.lineMasterToolStripMenuItem});
+			this.gDIToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ControlLightLight;
 			this.gDIToolStripMenuItem.Name = "gDIToolStripMenuItem";
 			this.gDIToolStripMenuItem.Size = new System.Drawing.Size(38, 20);
 			this.gDIToolStripMenuItem.Text = "GDI";
+			this.gDIToolStripMenuItem.Click += new System.EventHandler(this.gDIToolStripMenuItem_Click);
 			// 
 			// gDIBrushToolStripMenuItem
 			// 
@@ -68,6 +75,13 @@
 			this.textureBrushToolStripMenuItem.Text = "Texture Brush";
 			this.textureBrushToolStripMenuItem.Click += new System.EventHandler(this.textureBrushToolStripMenuItem_Click);
 			// 
+			// lineMasterToolStripMenuItem
+			// 
+			this.lineMasterToolStripMenuItem.Name = "lineMasterToolStripMenuItem";
+			this.lineMasterToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+			this.lineMasterToolStripMenuItem.Text = "Line Master";
+			this.lineMasterToolStripMenuItem.Click += new System.EventHandler(this.lineMasterToolStripMenuItem_Click);
+			// 
 			// GDI_container
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -78,6 +92,7 @@
 			this.MainMenuStrip = this.menuStrip1;
 			this.Name = "GDI_container";
 			this.Text = "Main";
+			this.Load += new System.EventHandler(this.GDI_container_Load);
 			this.menuStrip1.ResumeLayout(false);
 			this.menuStrip1.PerformLayout();
 			this.ResumeLayout(false);
@@ -91,6 +106,7 @@
 		private System.Windows.Forms.ToolStripMenuItem gDIToolStripMenuItem;
 		private System.Windows.Forms.ToolStripMenuItem gDIBrushToolStripMenuItem;
 		private System.Windows.Forms.ToolStripMenuItem textureBrushToolStripMenuItem;
+		private System.Windows.Forms.ToolStripMenuItem lineMasterToolStripMenuItem;
 	}
 }
 
