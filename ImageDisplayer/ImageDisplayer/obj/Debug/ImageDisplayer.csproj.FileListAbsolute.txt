@@ -1,0 +1,10 @@
+C:\Users\HELLO\Desktop\ImageDisplayer\ImageDisplayer\bin\Debug\ImageDisplayer.exe.config
+C:\Users\HELLO\Desktop\ImageDisplayer\ImageDisplayer\bin\Debug\ImageDisplayer.exe
+C:\Users\HELLO\Desktop\ImageDisplayer\ImageDisplayer\bin\Debug\ImageDisplayer.pdb
+C:\Users\HELLO\Desktop\ImageDisplayer\ImageDisplayer\obj\Debug\ImageDisplayer.csprojAssemblyReference.cache
+C:\Users\HELLO\Desktop\ImageDisplayer\ImageDisplayer\obj\Debug\ImageDisplayer.ImageDisplayer.resources
+C:\Users\HELLO\Desktop\ImageDisplayer\ImageDisplayer\obj\Debug\ImageDisplayer.Properties.Resources.resources
+C:\Users\HELLO\Desktop\ImageDisplayer\ImageDisplayer\obj\Debug\ImageDisplayer.csproj.GenerateResource.cache
+C:\Users\HELLO\Desktop\ImageDisplayer\ImageDisplayer\obj\Debug\ImageDisplayer.csproj.CoreCompileInputs.cache
+C:\Users\HELLO\Desktop\ImageDisplayer\ImageDisplayer\obj\Debug\ImageDisplayer.exe
+C:\Users\HELLO\Desktop\ImageDisplayer\ImageDisplayer\obj\Debug\ImageDisplayer.pdb
