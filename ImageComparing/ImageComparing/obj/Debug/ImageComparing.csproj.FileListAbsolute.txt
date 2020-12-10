@@ -1,0 +1,10 @@
+C:\Users\HELLO\Desktop\ImageComparing\ImageComparing\obj\Debug\ImageComparing.csprojAssemblyReference.cache
+C:\Users\HELLO\Desktop\ImageComparing\ImageComparing\obj\Debug\ImageComparing.Compare.resources
+C:\Users\HELLO\Desktop\ImageComparing\ImageComparing\obj\Debug\ImageComparing.Properties.Resources.resources
+C:\Users\HELLO\Desktop\ImageComparing\ImageComparing\obj\Debug\ImageComparing.csproj.GenerateResource.cache
+C:\Users\HELLO\Desktop\ImageComparing\ImageComparing\obj\Debug\ImageComparing.csproj.CoreCompileInputs.cache
+C:\Users\HELLO\Desktop\ImageComparing\ImageComparing\bin\Debug\ImageComparing.exe.config
+C:\Users\HELLO\Desktop\ImageComparing\ImageComparing\bin\Debug\ImageComparing.exe
+C:\Users\HELLO\Desktop\ImageComparing\ImageComparing\bin\Debug\ImageComparing.pdb
+C:\Users\HELLO\Desktop\ImageComparing\ImageComparing\obj\Debug\ImageComparing.exe
+C:\Users\HELLO\Desktop\ImageComparing\ImageComparing\obj\Debug\ImageComparing.pdb

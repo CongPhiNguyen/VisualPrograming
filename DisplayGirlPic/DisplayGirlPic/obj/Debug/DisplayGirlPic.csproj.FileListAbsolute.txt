@@ -1,0 +1,10 @@
+C:\Users\HELLO\Desktop\DisplayGirlPic\DisplayGirlPic\bin\Debug\DisplayGirlPic.exe.config
+C:\Users\HELLO\Desktop\DisplayGirlPic\DisplayGirlPic\bin\Debug\DisplayGirlPic.exe
+C:\Users\HELLO\Desktop\DisplayGirlPic\DisplayGirlPic\bin\Debug\DisplayGirlPic.pdb
+C:\Users\HELLO\Desktop\DisplayGirlPic\DisplayGirlPic\obj\Debug\DisplayGirlPic.csprojAssemblyReference.cache
+C:\Users\HELLO\Desktop\DisplayGirlPic\DisplayGirlPic\obj\Debug\DisplayGirlPic.Display.resources
+C:\Users\HELLO\Desktop\DisplayGirlPic\DisplayGirlPic\obj\Debug\DisplayGirlPic.Properties.Resources.resources
+C:\Users\HELLO\Desktop\DisplayGirlPic\DisplayGirlPic\obj\Debug\DisplayGirlPic.csproj.GenerateResource.cache
+C:\Users\HELLO\Desktop\DisplayGirlPic\DisplayGirlPic\obj\Debug\DisplayGirlPic.csproj.CoreCompileInputs.cache
+C:\Users\HELLO\Desktop\DisplayGirlPic\DisplayGirlPic\obj\Debug\DisplayGirlPic.exe
+C:\Users\HELLO\Desktop\DisplayGirlPic\DisplayGirlPic\obj\Debug\DisplayGirlPic.pdb

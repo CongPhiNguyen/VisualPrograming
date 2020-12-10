@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30002.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageComparing", "ImageComparing\ImageComparing.csproj", "{3CFEF491-D211-42B8-868A-0753C51EC3BE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3CFEF491-D211-42B8-868A-0753C51EC3BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CFEF491-D211-42B8-868A-0753C51EC3BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CFEF491-D211-42B8-868A-0753C51EC3BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CFEF491-D211-42B8-868A-0753C51EC3BE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {20D0F3EB-06BA-4747-87DD-C0004AC6EE39}
+	EndGlobalSection
+EndGlobal
