@@ -1,0 +1,12 @@
+C:\Users\HELLO\Desktop\GUIIII\GUIIII\bin\Debug\GUIIII.exe.config
+C:\Users\HELLO\Desktop\GUIIII\GUIIII\bin\Debug\GUIIII.exe
+C:\Users\HELLO\Desktop\GUIIII\GUIIII\bin\Debug\GUIIII.pdb
+C:\Users\HELLO\Desktop\GUIIII\GUIIII\obj\Debug\GUIIII.csprojAssemblyReference.cache
+C:\Users\HELLO\Desktop\GUIIII\GUIIII\obj\Debug\GUIIII.GUII.resources
+C:\Users\HELLO\Desktop\GUIIII\GUIIII\obj\Debug\GUIIII.Properties.Resources.resources
+C:\Users\HELLO\Desktop\GUIIII\GUIIII\obj\Debug\GUIIII.csproj.GenerateResource.cache
+C:\Users\HELLO\Desktop\GUIIII\GUIIII\obj\Debug\GUIIII.csproj.CoreCompileInputs.cache
+C:\Users\HELLO\Desktop\GUIIII\GUIIII\obj\Debug\GUIIII.exe
+C:\Users\HELLO\Desktop\GUIIII\GUIIII\obj\Debug\GUIIII.pdb
+C:\Users\HELLO\Desktop\GUIIII\GUIIII\obj\Debug\GUIIII.GUI4.resources
+C:\Users\HELLO\Desktop\GUIIII\GUIIII\obj\Debug\GUIIII.GUI2.resources
